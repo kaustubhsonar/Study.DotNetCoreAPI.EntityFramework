@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Study.DotNetCoreAPI.EntityFramework/bin/Debug/netcoreapp3.1
+/Study.DotNetCoreAPI.EntityFramework/obj

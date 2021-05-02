@@ -1,0 +1,5 @@
+﻿#For scafolding the the context 
+ scaffold-DbContext "Data Source=WL351860\SQLEXPRESS;Initial Catalog=BookStoresDB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
+
+ #With Connection string from app settings 
+ scaffold-DbContext -Connection Name=BookStoresDb Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
